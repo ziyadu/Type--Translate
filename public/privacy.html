@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Type & Translate</title>
+  <link rel="icon" type="image/jpeg" href="/pwa-icon.jpg" />
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: #111827;
+      --border: #1f2937;
+      --accent: #06b6d4;
+      --accent-glow: rgba(6, 182, 212, 0.15);
+      --text-main: #f3f4f6;
+      --text-muted: #9ca3af;
+      --emerald: #10b981;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text-main);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .logo-badge {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--accent);
+    }
+    .logo-badge img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+    .subtitle {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: var(--emerald);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+    section {
+      margin-bottom: 1.75rem;
+    }
+    h2 {
+      font-size: 1.15rem;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+    p, li {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      margin-bottom: 0.75rem;
+    }
+    ul {
+      padding-left: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    li {
+      margin-bottom: 0.35rem;
+    }
+    code {
+      background: var(--bg);
+      color: var(--accent);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.85rem;
+    }
+    .contact-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 1.25rem;
+      border-radius: 12px;
+      margin-top: 1.5rem;
+    }
+    .contact-card a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      border-top: 1px solid var(--border);
+      padding-top: 1.5rem;
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+    @media (max-width: 640px) {
+      .container {
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.35rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo-badge">
+        <img src="/pwa-icon.jpg" alt="Type & Translate Logo" />
+      </div>
+      <div>
+        <h1>Privacy Policy</h1>
+        <div class="subtitle">Type & Translate - Speed Typing & Live Multilingual Practice</div>
+      </div>
+    </div>
+
+    <div class="badge">
+      🔒 Client-First Privacy Guarantee — Zero Keystroke Logging
+    </div>
+
+    <section>
+      <h2>1. Overview</h2>
+      <p>
+        Welcome to <strong>Type & Translate</strong> (Application Package ID: <code>com.typetranslate.app</code>). We respect your personal privacy and are committed to protecting it through full compliance with this policy.
+      </p>
+      <p>
+        Type & Translate is designed as a client-first typing practice and multilingual translation web/PWA application. All personal metrics and performance histories remain on your device.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Information We Collect</h2>
+      <p>We do not require user account registration, and we do not harvest personal data. The application stores minimal session parameters locally on your browser:</p>
+      <ul>
+        <li><strong>Local Performance Telemetry:</strong> Words Per Minute (WPM), accuracy percentage, test duration, and completed practice passage counts. Stored strictly in your browser's <code>localStorage</code>.</li>
+        <li><strong>Preferences:</strong> User-selected target languages, sound effect toggles, theme settings, and font options.</li>
+        <li><strong>Custom Drills:</strong> Any text passages you manually paste or import for practice are saved in local device cache only.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. No Keystroke Logging Guarantee</h2>
+      <p>
+        We strictly <strong>DO NOT</strong> log, capture, record, or transmit your raw keystroke sequences onto external marketing servers or databases. All typing speed calculation logic occurs strictly in your device's memory while the test is active.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. Camera OCR & Microphone Permissions</h2>
+      <p>
+        If you grant camera or microphone access for document scanning or speech practice:
+      </p>
+      <ul>
+        <li><strong>Camera Document Scanning:</strong> Used exclusively on-demand to perform Optical Character Recognition (OCR) on user-selected book pages or text signs. Images are processed transiently and immediately discarded. No camera footage is saved or stored.</li>
+        <li><strong>Microphone / Speech-to-Text:</strong> Used solely to assist pronunciation and speech typing practice. Audio data is evaluated locally in-session.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Third-Party Services & Translation API</h2>
+      <p>
+        To provide real-time word translations, the application sends plain-text phrases to secure translation API proxies (such as Google Translate / Gemini API). No Personally Identifiable Information (PII), device identifiers, or user profile information is transmitted with translation requests.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Data Control & Deletion</h2>
+      <p>
+        Since all practice logs are stored locally on your device, you hold 100% control over your data. You can erase all stored metrics, test scores, and custom drills at any time by:
+      </p>
+      <ul>
+        <li>Clicking <strong>"Clear History"</strong> inside the app's Scores Log panel.</li>
+        <li>Clearing your web browser cache and site data for this domain.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. Children's Privacy (COPPA & GDPR Compliance)</h2>
+      <p>
+        Type & Translate is safe for students of all ages, including children under 13. We do not collect or request any personal identifiers, names, email addresses, or location data from young learners.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Contact & Developer Support</h2>
+      <p>If you have any questions or concerns regarding this Privacy Policy or data handling in Type & Translate, please contact the developer team directly:</p>
+      <div class="contact-card">
+        <p><strong>App Name:</strong> Type & Translate - Speed Typing & Live Multilingual Practice</p>
+        <p><strong>Package Name:</strong> <code>com.typetranslate.app</code></p>
+        <p><strong>Contact Email:</strong> <a href="mailto:ziyadurr9@gmail.com">ziyadurr9@gmail.com</a></p>
+      </div>
+    </section>
+
+    <div class="footer">
+      Effective Date: August 8, 2026 • © Type & Translate. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>

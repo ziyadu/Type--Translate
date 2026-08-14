@@ -1,0 +1,6 @@
+{
+  "name": "Type & Translate",
+  "description": "A professional and high-fidelity typing speed test application featuring real-time performance calculation (WPM, CPM, Accuracy), customized timer limits, multiple modes (words, sentences, paragraphs, time challenge), custom text imports, interactive smooth scrolling, and typing animations with dark and light mode options.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
