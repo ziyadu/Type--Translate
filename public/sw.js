@@ -1,16 +1,16 @@
-const CACHE_NAME = 'type-translate-v1';
+const CACHE_NAME = 'type-translate-v2';
 const ASSETS_TO_CACHE = [
-  '/',
-  '/index.html',
-  '/manifest.json',
-  '/pwa-icon.png',
-  '/app-icon.png',
-  '/icon-192.png',
-  '/icon-512.png',
-  '/icon-maskable-192.png',
-  '/icon-maskable-512.png',
-  '/screenshot-wide.png',
-  '/screenshot-narrow.png'
+  './',
+  './index.html',
+  './manifest.json',
+  './pwa-icon.png',
+  './app-icon.png',
+  './icon-192.png',
+  './icon-512.png',
+  './icon-maskable-192.png',
+  './icon-maskable-512.png',
+  './screenshot-wide.png',
+  './screenshot-narrow.png'
 ];
 
 self.addEventListener('install', (event) => {
